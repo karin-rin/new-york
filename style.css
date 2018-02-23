@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    
+}
+
+.top{
+    width: 100%;
+    height: 400px;
+    background: #000 url(img/spot2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.top h1{
+    color: #fff;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+nav{
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    position: absolute;
+    bottom: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin: 2px 65px;
+    font-family: 'Playfair Display', serif;
+}
+
+nav a{
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin:14px 16px 0px;
+    transition: 0.3px;
+    
+}
+
+nav a:hover{
+    border-bottom: 3px solid #f9f9f9;
+    
+}
+
+.main{
+    position: relative;
+}
+
+
+.content{
+    position: absolute;
+    width: 500px;
+    height: 333px;
+    float: left;
+}
+
+.content .caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: rgba(56, 54, 54, 0.71);
+    height: 293px; /*contentの高さ-40px*/
+    width: 460px; 
+    
+    -webkit-transition:all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+    opacity: 0;
+}
+
+.content .caption{
+    color: white;
+    font-size: 15px;
+}
+
+.content:hover .caption {
+    -webkit-transform: translate(30px, 40px);
+    -ms-transform: translate(30px, 40px);
+    -o-transform: translate(30px, 40px, );
+    transform: translate(30px, 40px);
+    opacity: 1;
+}
+
+.pic{
+    width: 500px;
+    height: 333px;
+    overflow: hidden;
+}
+
+.pink {
+    top: 50px;
+    left: 50px;
+}
+
+.choco{
+    top:  50px;
+    right: 50px;
+    
+}
+
+.spot{
+   top: 450px;
+   left: 50%;
+   transform: translate(-50%, 0)
+}
+
+.food{
+    top: 850px;
+    left:50px;
+    
+}
+
+.photo{
+    top:850px;
+    right:50px;
+}
+
+
