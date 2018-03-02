@@ -3,16 +3,16 @@
     
 }
 
-.top{
+#top{
     width: 100%;
     height: 400px;
-    background: #000 url(img/spot2.png);
+/*    background: #000 ;*/
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
-.top h1{
+#top h1{
     color: #fff;
     font-size: 120px;
     text-align: center;
@@ -52,7 +52,12 @@ nav a:hover{
 }
 
 .main{
+    width: 100%;
+    height: 180vh;
     position: relative;
+    background: #fff;
+    border: 1px solid #fff;
+    z-index: 4;
 }
 
 
